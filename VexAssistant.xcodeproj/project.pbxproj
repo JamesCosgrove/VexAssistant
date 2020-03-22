@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1ABAD8A32427BCD3009324A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABAD8A22427BCD3009324A4 /* AppDelegate.swift */; };
+		1ABAD8A52427BCD3009324A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABAD8A42427BCD3009324A4 /* SceneDelegate.swift */; };
+		1ABAD8A82427BCD3009324A4 /* VexAssistant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1ABAD8A62427BCD3009324A4 /* VexAssistant.xcdatamodeld */; };
+		1ABAD8AA2427BCD3009324A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABAD8A92427BCD3009324A4 /* ContentView.swift */; };
+		1ABAD8AC2427BCD4009324A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ABAD8AB2427BCD4009324A4 /* Assets.xcassets */; };
+		1ABAD8AF2427BCD4009324A4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ABAD8AE2427BCD4009324A4 /* Preview Assets.xcassets */; };
+		1ABAD8B22427BCD4009324A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ABAD8B02427BCD4009324A4 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1ABAD89F2427BCD3009324A4 /* VexAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VexAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ABAD8A22427BCD3009324A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1ABAD8A42427BCD3009324A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1ABAD8A72427BCD3009324A4 /* VexAssistant.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VexAssistant.xcdatamodel; sourceTree = "<group>"; };
+		1ABAD8A92427BCD3009324A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1ABAD8AB2427BCD4009324A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1ABAD8AE2427BCD4009324A4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1ABAD8B12427BCD4009324A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1ABAD8B32427BCD4009324A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1ABAD89C2427BCD3009324A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ABAD8962427BCD3009324A4 = {
+			isa = PBXGroup;
+			children = (
+				1ABAD8A12427BCD3009324A4 /* VexAssistant */,
+				1ABAD8A02427BCD3009324A4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1ABAD8A02427BCD3009324A4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1ABAD89F2427BCD3009324A4 /* VexAssistant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1ABAD8A12427BCD3009324A4 /* VexAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				1ABAD8A22427BCD3009324A4 /* AppDelegate.swift */,
+				1ABAD8A42427BCD3009324A4 /* SceneDelegate.swift */,
+				1ABAD8A92427BCD3009324A4 /* ContentView.swift */,
+				1ABAD8AB2427BCD4009324A4 /* Assets.xcassets */,
+				1ABAD8B02427BCD4009324A4 /* LaunchScreen.storyboard */,
+				1ABAD8B32427BCD4009324A4 /* Info.plist */,
+				1ABAD8A62427BCD3009324A4 /* VexAssistant.xcdatamodeld */,
+				1ABAD8AD2427BCD4009324A4 /* Preview Content */,
+			);
+			path = VexAssistant;
+			sourceTree = "<group>";
+		};
+		1ABAD8AD2427BCD4009324A4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1ABAD8AE2427BCD4009324A4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1ABAD89E2427BCD3009324A4 /* VexAssistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ABAD8B62427BCD4009324A4 /* Build configuration list for PBXNativeTarget "VexAssistant" */;
+			buildPhases = (
+				1ABAD89B2427BCD3009324A4 /* Sources */,
+				1ABAD89C2427BCD3009324A4 /* Frameworks */,
+				1ABAD89D2427BCD3009324A4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VexAssistant;
+			productName = VexAssistant;
+			productReference = 1ABAD89F2427BCD3009324A4 /* VexAssistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1ABAD8972427BCD3009324A4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "James Cosgrove";
+				TargetAttributes = {
+					1ABAD89E2427BCD3009324A4 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 1ABAD89A2427BCD3009324A4 /* Build configuration list for PBXProject "VexAssistant" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1ABAD8962427BCD3009324A4;
+			productRefGroup = 1ABAD8A02427BCD3009324A4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1ABAD89E2427BCD3009324A4 /* VexAssistant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1ABAD89D2427BCD3009324A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ABAD8B22427BCD4009324A4 /* LaunchScreen.storyboard in Resources */,
+				1ABAD8AF2427BCD4009324A4 /* Preview Assets.xcassets in Resources */,
+				1ABAD8AC2427BCD4009324A4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ABAD89B2427BCD3009324A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ABAD8A32427BCD3009324A4 /* AppDelegate.swift in Sources */,
+				1ABAD8A82427BCD3009324A4 /* VexAssistant.xcdatamodeld in Sources */,
+				1ABAD8AA2427BCD3009324A4 /* ContentView.swift in Sources */,
+				1ABAD8A52427BCD3009324A4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1ABAD8B02427BCD4009324A4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ABAD8B12427BCD4009324A4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1ABAD8B42427BCD4009324A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1ABAD8B52427BCD4009324A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1ABAD8B72427BCD4009324A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"VexAssistant/Preview Content\"";
+				DEVELOPMENT_TEAM = WV3WFS9NRK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = VexAssistant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.james.VexAssistant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1ABAD8B82427BCD4009324A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"VexAssistant/Preview Content\"";
+				DEVELOPMENT_TEAM = WV3WFS9NRK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = VexAssistant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.james.VexAssistant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1ABAD89A2427BCD3009324A4 /* Build configuration list for PBXProject "VexAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ABAD8B42427BCD4009324A4 /* Debug */,
+				1ABAD8B52427BCD4009324A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ABAD8B62427BCD4009324A4 /* Build configuration list for PBXNativeTarget "VexAssistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ABAD8B72427BCD4009324A4 /* Debug */,
+				1ABAD8B82427BCD4009324A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1ABAD8A62427BCD3009324A4 /* VexAssistant.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1ABAD8A72427BCD3009324A4 /* VexAssistant.xcdatamodel */,
+			);
+			currentVersion = 1ABAD8A72427BCD3009324A4 /* VexAssistant.xcdatamodel */;
+			path = VexAssistant.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1ABAD8972427BCD3009324A4 /* Project object */;
+}
