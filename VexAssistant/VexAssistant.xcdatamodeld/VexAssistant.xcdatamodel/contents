@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="true" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="19D76" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="SingleEvent" representedClassName="SingleEvent" syncable="YES" codeGenerationType="class">
+        <attribute name="country" optional="YES" attributeType="String"/>
+        <attribute name="end" optional="YES" attributeType="String"/>
+        <attribute name="key" optional="YES" attributeType="String"/>
+        <attribute name="loc_address1" optional="YES" attributeType="String"/>
+        <attribute name="loc_address2" optional="YES" attributeType="String"/>
+        <attribute name="loc_city" optional="YES" attributeType="String"/>
+        <attribute name="loc_postcode" optional="YES" attributeType="String"/>
+        <attribute name="loc_region" optional="YES" attributeType="String"/>
+        <attribute name="loc_venue" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="program" optional="YES" attributeType="String"/>
+        <attribute name="season" optional="YES" attributeType="String"/>
+        <attribute name="sku" optional="YES" attributeType="String"/>
+        <attribute name="start" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="SingleEvent" positionX="-63" positionY="-18" width="128" height="253"/>
+    </elements>
 </model>
